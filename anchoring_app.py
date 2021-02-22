@@ -25,10 +25,10 @@ class AnchoringExperiment(SimpleExperiment):
   def assign(self, params, userid):
     params.use_round_number = BernoulliTrial(p=0.5, unit=userid)
     if params.use_round_number:
-      params.price = UniformChoice(choices=[240000, 250000, 260000],
+      params.price = UniformChoice(choices=[10, 25, 50],
         unit=userid)
     else:
-      params.price = RandomInteger(min=240000, max=260000, unit=userid)
+      params.price = RandomInteger(min=10, max=50, unit=userid)
 
 def money_format(number):
   return "${:,.2f}".format(number)
@@ -49,7 +49,7 @@ def main():
       </head>
       <body>
         <h3>
-          A lovely new home is going on the market for {{ price }}. <br>
+          My opponent wants to continue the Trump agenda. Based on our fundraising model, a {{ price }} contribution from you today will give us what we need to fight back!<br>
         </h3>
         <p>
           What will you contribute today?
