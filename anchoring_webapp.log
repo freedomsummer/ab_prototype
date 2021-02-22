@@ -1,0 +1,4 @@
+{"name": "AnchoringExperiment", "time": 1614021079, "salt": "AnchoringExperiment", "inputs": {"userid": "12344bbe-2e4b-46a8-ae60-0b41b345dad9"}, "params": {"use_round_number": 1, "price": 250000}, "event": "exposure", "checksum": "3467a5ec"}
+{"name": "AnchoringExperiment", "time": 1614021152, "salt": "AnchoringExperiment", "inputs": {"userid": "12344bbe-2e4b-46a8-ae60-0b41b345dad9"}, "params": {"use_round_number": 1, "price": 250000}, "event": "exposure", "checksum": "3467a5ec"}
+{"name": "AnchoringExperiment", "time": 1614021270, "salt": "AnchoringExperiment", "inputs": {"userid": "12344bbe-2e4b-46a8-ae60-0b41b345dad9"}, "params": {"use_round_number": 1, "price": 250000}, "event": "exposure", "checksum": "3467a5ec"}
+{"name": "AnchoringExperiment", "time": 1614021299, "salt": "AnchoringExperiment", "inputs": {"userid": "12344bbe-2e4b-46a8-ae60-0b41b345dad9"}, "params": {"use_round_number": 1, "price": 250000}, "event": "exposure", "checksum": "3467a5ec"}

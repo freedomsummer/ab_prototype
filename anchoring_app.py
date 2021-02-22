@@ -45,14 +45,14 @@ def main():
     return render_template_string("""
     <html>
       <head>
-        <title>Let's buy a house!</title>
+        <title>We need to fight back!</title>
       </head>
       <body>
         <h3>
           A lovely new home is going on the market for {{ price }}. <br>
         </h3>
         <p>
-          What will be your first offer?
+          What will you contribute today?
         </p>
         <form action="/bid" method="GET">
           $<input type="text" length="10" name="bid"></input>
